@@ -23,7 +23,7 @@ public class Ejercicio2 {
         costo_horas= teclado.nextInt();
         System.out.println("Ingrese cantidad de horas trabajadas en un mes");
         horas_trabajadas=teclado.nextInt();
-        System.out.println("Ingrese cuantos mese trabaja en un año");
+        System.out.println("Ingrese cuantos meses trabaja en un año");
         meses_trabajados=teclado.nextInt();
         int salario=(costo_horas*horas_trabajadas)*meses_trabajados;
         System.out.println("El salario por año es de "+salario+" pesos");
